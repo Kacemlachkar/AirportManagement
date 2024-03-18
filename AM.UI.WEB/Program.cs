@@ -44,6 +44,6 @@ app.UseAuthorization();
 // create default route
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Plane}/{action=Index}/{id?}");
+    pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
